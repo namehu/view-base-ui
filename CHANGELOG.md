@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/namehu/view-base-ui/compare/v0.0.2...v0.0.3) (2020-02-24)
+
+
+### Bug Fixes
+
+* **v-multiple-select:** 修复indeterminate参数错误问题 ([625f205](https://github.com/namehu/view-base-ui/commit/625f205ba583e5af4f50c46099b88964556b60a5))
+
 ### [0.0.2](https://github.com/namehu/view-base-ui/compare/v0.0.1...v0.0.2) (2020-02-24)
 
 
