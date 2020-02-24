@@ -40,7 +40,7 @@ const base = {
 export default [
   {
     ...base,
-    output: { file: 'dist/view-base-ui.umd.js', format: 'umd', name: 'view-base-ui' },
+    output: { file: 'dist/view-base-ui.umd.js', format: 'umd', name: 'ViewBaseUI' },
     plugins: [
       clear({ targets: ['dist'] }),
       vue({ css: false }),

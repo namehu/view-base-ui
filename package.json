@@ -10,9 +10,11 @@
     "release": "standard-version"
   },
   "files": [
+    "dist",
     "src",
-    "dist"
+    "types"
   ],
+  "typings": "types/index.d.ts",
   "author": "",
   "license": "ISC",
   "dependencies": {
