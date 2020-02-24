@@ -8,6 +8,7 @@ import scss from 'rollup-plugin-scss';
 
 const extensions = ['.js', '.vue', '.ts'];
 const babelConfig = {
+  runtimeHelpers: true,
   presets: [
     [
       "@babel/preset-env",
@@ -33,7 +34,7 @@ const basePlugins = [
 ];
 
 const base = {
-  input: 'src/index.ts',
+  input: 'lib/index.ts',
   external: ['view-design', 'vue', 'vue-property-decorator', 'vue-class-component'],
 }
 
