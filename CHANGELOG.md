@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/namehu/view-base-ui/compare/v0.0.3...v0.0.4) (2020-02-24)
+
+
+### Features
+
+* **src:** 将组件基础目录从src移至lib目录 ([e734071](https://github.com/namehu/view-base-ui/commit/e7340714d86403efbbe82a3bb08e8e5c4366ce8e))
+* 打包新的代码 ([7a01522](https://github.com/namehu/view-base-ui/commit/7a01522ab8a37e2ab5b26bc1a03abf5054797966))
+* 新增本地测试代码 ([29b6d3c](https://github.com/namehu/view-base-ui/commit/29b6d3c9f851c2cd280e6d681d136bd41ba4241e))
+
 ### [0.0.3](https://github.com/namehu/view-base-ui/compare/v0.0.2...v0.0.3) (2020-02-24)
 
 
