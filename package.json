@@ -1,0 +1,43 @@
+{
+  "name": "view-base-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/view-base-ui.umd.js",
+  "module": "dist/view-base-ui.esm.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "view-design": "^4.1.2",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-typescript": "^7.8.3",
+    "rollup": "^1.31.1",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-css-only": "^2.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-sass": "^1.2.2",
+    "rollup-plugin-scss": "^2.1.0",
+    "rollup-plugin-terser": "^5.2.0",
+    "rollup-plugin-vue": "^5.1.6",
+    "rollup-plugin-vue-template": "^2.0.1",
+    "rollup-pluginutils": "^2.8.2",
+    "vue-class-component": "^7.2.3",
+    "vue-property-decorator": "^8.4.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
