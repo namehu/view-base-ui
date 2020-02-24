@@ -122,7 +122,7 @@ export default class VMultipleSelect extends Vue {
   public get allIndeterminate() {
     const ol = this.filterOptions.length;
     return (
-      ol && this.filterSelectOptionLen > 0 && this.filterSelectOptionLen < ol
+      !!ol && this.filterSelectOptionLen > 0 && this.filterSelectOptionLen < ol
     );
   }
 
