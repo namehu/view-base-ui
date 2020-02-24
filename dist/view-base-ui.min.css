@@ -211,12 +211,12 @@
   color: #808695; }
 
 /*# sourceMappingURL=v-transfer-box.vue.map */
-.vb-clusterize-list[data-v-68958c86] {
+.vb-clusterize-list[data-v-1809e502] {
   position: relative;
   height: 100%;
   overflow-y: auto; }
 
-.vb-clusterize-list li[data-v-68958c86] {
+.vb-clusterize-list li[data-v-1809e502] {
   height: 32px;
   line-height: 32px;
   padding: 0 8px;
@@ -225,7 +225,7 @@
   white-space: nowrap;
   text-overflow: ellipsis; }
 
-.vb-clusterize-list li[data-v-68958c86]:hover {
+.vb-clusterize-list li[data-v-1809e502]:hover {
   background: #f3f3f3; }
 
 /*# sourceMappingURL=v-clusterize-list.vue.map */
