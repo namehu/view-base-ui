@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.2](https://github.com/namehu/view-base-ui/compare/v0.0.1...v0.0.2) (2020-02-24)
+
+
+### Features
+
+* 新增打包配置 ([10536a7](https://github.com/namehu/view-base-ui/commit/10536a70729c6ef4165c237ccb339bea541f39ec))
+
+
+### Bug Fixes
+
+* 修复clusterize-list ([003a4ed](https://github.com/namehu/view-base-ui/commit/003a4eda10a1d8b2e51a9daccd9d64b9d896341b))
+
 ### 0.0.1 (2020-02-24)
 
 
