@@ -23,7 +23,6 @@
 import { Vue, Component, Prop, Watch } from 'vue-property-decorator';
 import { on, off } from '../../../utils';
 
-@require('./clusterize-list.render.html?style=./clusterize-list.scss')
 @Component({ name: 'VClusterizeList' })
 export default class VClusterizeList extends Vue {
   @Prop({ type: Array, default: () => [] }) public data!: any[];
