@@ -2,6 +2,7 @@
   <div class="home">
     <VMultipleSelect v-model="selectData"
       :options="options"
+      showSelect
       inverse></VMultipleSelect>
     <VTransferBox></VTransferBox>
   </div>
@@ -19,7 +20,7 @@ export default {
   },
   created() {
     for (let i = 0; i < 100; i++) {
-      this.options.push({ label: `label-${i}`, value: i })
+      this.options.push({ label: `label-${i}`, value: i,key: `key-${i}` })
     }
   }
 }
