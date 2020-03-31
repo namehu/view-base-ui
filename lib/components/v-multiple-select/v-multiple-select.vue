@@ -50,7 +50,7 @@
         <div class="select-dropdown-list">
           <ul v-if="filterOptions.length">
             <li v-for="(item, index) in filterOptions"
-              :key="item[key] || index">
+              :key="item[trackKey] || index">
               <Checkbox v-model="item.checked"
                 @on-change="onOptionItemCheckChange">{{item.label}}</Checkbox>
             </li>
@@ -77,7 +77,7 @@ export default class VMultipleSelect extends Vue {
   @Prop({ type: Boolean, default: false }) public inverse!: boolean; // 是否开启反选
   @Prop({ type: Boolean, default: false }) public filter!: boolean; // 是否开启搜索
   @Prop({ type: Boolean, default: false }) public showSelect!: boolean; // 是否开启只看已选
-  @Prop({ type: String, default: 'key' }) public key!: string; // 列表key. 默认是列表中的key字段。如果没有。则使用index做key。
+  @Prop({ type: String, default: 'key' }) public trackKey!: string; // 列表key. 默认是列表中的key字段。如果没有。则使用index做key。
 
   public searchText = '';
   public onlySelected = false;
