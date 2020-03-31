@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/namehu/view-base-ui/compare/v0.0.4...v0.0.5) (2020-03-31)
+
+
+### Bug Fixes
+
+* **multiple-select:** 修复多选列表key使用索引使用index导致dom重用的bug ([769ea47](https://github.com/namehu/view-base-ui/commit/769ea477c97a69ee1662a06d60649b3c08890219))
+
 ### [0.0.4](https://github.com/namehu/view-base-ui/compare/v0.0.3...v0.0.4) (2020-02-24)
 
 
