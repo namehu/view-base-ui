@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.9](https://github.com/namehu/view-base-ui/compare/v0.0.8...v0.0.9) (2020-04-01)
+
+
+### Features
+
+* 打包新版 ([46e8b82](https://github.com/namehu/view-base-ui/commit/46e8b82113615dead78453292fa0ab9b367745a5))
+
+
+### Bug Fixes
+
+* **multiple-select:** 修复多行文本超出换行覆盖下一行的bug ([7911dba](https://github.com/namehu/view-base-ui/commit/7911dbaaba66d266200baef490f97fa7109ef7f5))
+
 ### [0.0.8](https://github.com/namehu/view-base-ui/compare/v0.0.7...v0.0.8) (2020-03-31)
 
 
