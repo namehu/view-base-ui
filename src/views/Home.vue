@@ -3,7 +3,8 @@
     <VMultipleSelect v-model="selectData"
       :options="options"
       showSelect
-      inverse></VMultipleSelect>
+      inverse
+      style="max-width:300px;"></VMultipleSelect>
     <VTransferBox></VTransferBox>
   </div>
 </template>

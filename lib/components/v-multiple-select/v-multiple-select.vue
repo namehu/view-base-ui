@@ -52,7 +52,8 @@
             <li v-for="(item, index) in filterOptions"
               :key="item[trackKey] || index">
               <Checkbox v-model="item.checked"
-                @on-change="onOptionItemCheckChange">{{item.label}}</Checkbox>
+                @on-change="onOptionItemCheckChange"
+                class="select-dropdown-list-checkbox"><span class="select-dropdown-list-checkbox-label">{{item.label}}</span></Checkbox>
             </li>
           </ul>
           <div v-else
