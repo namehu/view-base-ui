@@ -6,6 +6,7 @@
   "module": "dist/view-base-ui.esm.js",
   "scripts": {
     "serve": "vue-cli-service serve",
+    "start": "vue-cli-service serve",
     "build": "rollup -c",
     "release": "standard-version",
     "pub": "git push --follow-tags origin master && npm publish"
